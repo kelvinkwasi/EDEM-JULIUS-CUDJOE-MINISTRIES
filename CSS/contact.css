@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.wrapper {
+    /* max-width:  1400px; */
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    background-color:  white;
+    /* position: relative; */
+    /* height: 8em;
+    margin: 0 auto;
+    text-align: center; */
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    height: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .logo{
+    color: #4A4A4A;
+    font-size: 3rem;
+    font-family: 'Orpheus Pro';
+    font-weight: 600;
+}
+
+nav  ul{
+    display: flex;
+    gap: 3em;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #6b003e;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1.3em;
+}
+
+nav ul li a:hover {
+    color: #A2A167;
+    transition: color 0.4s ease-in;
+}
+
+.hero {
+    margin: 0;
+    background-image: url(../IMAGESEJCM/063c4419-ff54-43d9-9639-e40e3567c7c5.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 20%;
+    width: 100%;
+    height: 700px;
+}
+
+.contact-link {
+    display:inline-block;
+    text-align: center;
+    /* margin: 0 auto; */
+    background-color: #f4f4f4;
+    /* padding: 0px 20px; */
+    padding: 100px 20px 40px;
+    width: 100%;
+    /* max-width: 1240px; */
+}
+
+.contact-link h1 {
+    font-family: 'Orpheus Pro', serif;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 3.2em 0em 1.2em 0em;
+}
+
+.contact-link input{
+    width: 60%;
+    padding: 12px 20px;
+    border: 2px solid #6b003e;
+    height: 3.8em;
+    outline: 0em;
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2em;
+}
+
+.contact-link form {
+    padding: 0;
+}
+
+textarea {
+    margin-top: 2em;
+    width: 60%;
+    height: 24em;
+    padding: 10px;
+}
+
+label h2 {
+    /* max-width: 756px; */
+    /* text-align: left; */
+}
+
+#email-send {
+    width: 60%;
+    padding: 12px 20px;
+    height: 3.8em;
+    outline: 0em;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #6b003e60;
+}
+
+.send {
+    cursor: pointer;
+    margin-top: 2em;
+    font-family: 'Orpheus Pro', serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+}
+
+.text-info-cntact {
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    font-family: 'Orpheus Pro', serif;
+    line-height: 2em;
+}
+
+.text-info-cntact h3 {
+    font-size: 1.6em;
+}
+
+.text-info-cntact p {
+    font-size: 1.6em;
+}
+
+/* send button hover */
+
+.send:hover {
+    background-color: #A2A167;
+    color: white;
+    border: 2px solid white;
+    font-family: 'Orpheus Pro', serif;
+}
+
+
+/* footer area */
+
+footer {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+footer h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orpheus Pro', serif;
+    font-size: 3rem;
+    margin-bottom: 1.8em;
+    padding: 80px 20px 0px 20px;
+}
+
+footer form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer input {
+    width: 18%;
+    padding: 12px 20px;
+    border: 2px solid #6b003e;
+    height: 3.8em;
+    outline: 0em;
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.email-add {
+    width: 36%;
+    border-right: none;
+}
+
+.button {
+    background-color: #6b003e;
+    border: 2px solid #6b003e;
+    width: 16%;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #A2A167;
+    border: 2px solid #A2A167;
+    color: white ;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 0 auto;
+    margin-top: 4.5em;
+}
+
+.socials svg {
+    width:  2.5em;
+    fill: #6b003e;
+}
+
+.socials svg:hover {
+    fill: #A2A167;
+}
+
+.privacy-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0em 5em 0em; 
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+.privacy-copyright a {
+    text-decoration: none;
+    color: black;
+}
+
